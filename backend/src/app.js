@@ -12,4 +12,4 @@ app.use(routes);
 // Tratamento de erros
 app.use(errors());
 
-app.listen(3333);
+module.exports = app;
